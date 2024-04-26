@@ -1,6 +1,7 @@
 import requests as req
 from bs4 import BeautifulSoup as bs
 import pandas as pd
+import datetime
 
 res = req.get("https://music.bugs.co.kr/chart")
 
